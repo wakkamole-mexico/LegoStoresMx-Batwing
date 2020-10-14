@@ -114,6 +114,10 @@ body{
     justify-content: center;
 }
 
+.image__container img{
+    height: 100%;
+}
+
 .hero__section{
     min-height: 100vh;
     height: auto;
