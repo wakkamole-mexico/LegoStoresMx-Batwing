@@ -94,12 +94,24 @@ body{
     color: white;
 }
 
+.coverimage__section{
+    height: auto;
+    background-color: black;
+}
+
+.image__container{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (min-width: 700px) {
     .img__container img{
         max-width: 30%;
     }
+    
 }
 
 @media only screen and (max-width: 600px) {
-   
+    .image__container img{
+        width: 100vw;
+    }
 }
