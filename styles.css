@@ -42,12 +42,15 @@ body{
 }
 
 .countdown__container{
-    background-image: url(./src/logobatman-1989@3x.png);
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/lego-batman-landing%2Flogobatman-1989%403x.png?alt=media&token=17736fe8-aeae-40b9-98be-c18f8a16b8d5');
     /* background-size: cover; */
     height: 135px;
     background-position: center center;
     background-repeat: no-repeat;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
